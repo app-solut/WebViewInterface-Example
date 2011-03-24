@@ -9,7 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface App_Solut_WebViewInterfaceViewController : UIViewController {
+    IBOutlet UIWebView *webView;
+    IBOutlet UILabel *label;
+    IBOutlet UIButton *call;
     
 }
+
+@property(retain, nonatomic) UIWebView *webView;
+@property(retain, nonatomic) UILabel *label;
+@property(retain, nonatomic) UIButton *call;
 
 @end

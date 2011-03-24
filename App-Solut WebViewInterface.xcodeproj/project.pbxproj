@@ -16,6 +16,7 @@
 		18C76F0A133B56FA00F009EE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C76F08133B56FA00F009EE /* MainWindow.xib */; };
 		18C76F0D133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C76F0C133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.m */; };
 		18C76F10133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C76F0E133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.xib */; };
+		18C76F23133B690300F009EE /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 18C76F22133B690300F009EE /* index.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		18C76EF6133B56FA00F009EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18C76EF8133B56FA00F009EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18C76EFA133B56FA00F009EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		18C76EFE133B56FA00F009EE /* App-Solut WebViewInterface-Info.plist */ = {isa = PBXFileReference; path = "App-Solut WebViewInterface-Info.plist"; sourceTree = "<group>"; };
+		18C76EFE133B56FA00F009EE /* App-Solut WebViewInterface-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "App-Solut WebViewInterface-Info.plist"; sourceTree = "<group>"; };
 		18C76F00133B56FA00F009EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18C76F02133B56FA00F009EE /* App-Solut WebViewInterface-Prefix.pch */ = {isa = PBXFileReference; path = "App-Solut WebViewInterface-Prefix.pch"; sourceTree = "<group>"; };
+		18C76F02133B56FA00F009EE /* App-Solut WebViewInterface-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "App-Solut WebViewInterface-Prefix.pch"; sourceTree = "<group>"; };
 		18C76F03133B56FA00F009EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18C76F05133B56FA00F009EE /* App_Solut_WebViewInterfaceAppDelegate.h */ = {isa = PBXFileReference; path = App_Solut_WebViewInterfaceAppDelegate.h; sourceTree = "<group>"; };
+		18C76F05133B56FA00F009EE /* App_Solut_WebViewInterfaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App_Solut_WebViewInterfaceAppDelegate.h; sourceTree = "<group>"; };
 		18C76F06133B56FA00F009EE /* App_Solut_WebViewInterfaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_Solut_WebViewInterfaceAppDelegate.m; sourceTree = "<group>"; };
 		18C76F09133B56FA00F009EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		18C76F0B133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.h */ = {isa = PBXFileReference; path = App_Solut_WebViewInterfaceViewController.h; sourceTree = "<group>"; };
+		18C76F0B133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = App_Solut_WebViewInterfaceViewController.h; sourceTree = "<group>"; };
 		18C76F0C133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = App_Solut_WebViewInterfaceViewController.m; sourceTree = "<group>"; };
 		18C76F0F133B56FA00F009EE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/App_Solut_WebViewInterfaceViewController.xib; sourceTree = "<group>"; };
+		18C76F22133B690300F009EE /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		18C76EFD133B56FA00F009EE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				18C76F22133B690300F009EE /* index.html */,
 				18C76EFE133B56FA00F009EE /* App-Solut WebViewInterface-Info.plist */,
 				18C76EFF133B56FA00F009EE /* InfoPlist.strings */,
 				18C76F02133B56FA00F009EE /* App-Solut WebViewInterface-Prefix.pch */,
@@ -151,6 +154,7 @@
 				18C76F01133B56FA00F009EE /* InfoPlist.strings in Resources */,
 				18C76F0A133B56FA00F009EE /* MainWindow.xib in Resources */,
 				18C76F10133B56FA00F009EE /* App_Solut_WebViewInterfaceViewController.xib in Resources */,
+				18C76F23133B690300F009EE /* index.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

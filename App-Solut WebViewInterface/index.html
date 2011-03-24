@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>App-Solut WebViewInterface</title>
+	<script type="text/javascript">
+        counter = 1;
+        
+        function addItem() {
+            box = document.getElementById("btn_box");
+            var row = document.createElement("button");
+            row.id= "btn_"+counter;
+            row.setAttribute("onClick","clickedItem('"+counter+"');");
+            row.setAttribute("style","display:block;");
+            row.innerHTML = "Button #"+counter;
+            box.appendChild(row);
+            
+            if(counter==1) {
+                var remover = document.createElement("button");
+                remover.setAttribute("onClick","removeAll();");
+                remover.setAttribute("style","display:block;");
+                remover.innerHTML = "Remove all buttons";
+                document.getElementById("remover_box").appendChild(remover);
+            }
+            
+            counter++;
+        }
+        
+        function removeAll() {
+            document.getElementById("btn_box").innerHTML = "";
+            document.getElementById("remover_box").innerHTML = "";
+            window.location = "appcall?cmd=remove";
+            counter=1;
+        }
+        
+        function clickedItem(id) {
+            window.location = "appcall?cmd=call&param="+id;
+        }
+	</script>
+</head>
+<body>
+<h2>Hello World!</h2><p>This is a web page.</p>
+<div id="btn_box">
+
+</div>
+<div id="remover_box">
+</div>
+<p>A short WebViewInterface Demo from <a href="http://blog.app-solut.com">blog.app-solut.com</a>.</p>
+</body>
+
+</html>
