@@ -3,7 +3,7 @@
 //  App-Solut WebViewInterface
 //
 //  Created by thorben on 24.03.11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 XINFO blog.app-solut.com. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
